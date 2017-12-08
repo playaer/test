@@ -47,6 +47,14 @@ type Res2 struct {
 	Ignored int64
 }
 
+
+//Write a function that takes a string and parses it to struct
+//type tests struct {
+//	failed  int64
+//	passed  int64
+//	ignored int64
+//}
+//The function should return the tests struct.
 func func2(str string) Res2 {
 	result := Res2{}
 	re0 := regexp.MustCompile(`^Tests`)
